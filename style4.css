@@ -1,0 +1,233 @@
+body{
+    background-color: #4BA3C3;                   /*** esee ***/
+    margin:0px;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+
+}
+#bar{
+    display: flex;
+    color:#fff;                                 /*** esee ***/
+    justify-content: space-around;
+    background-color: #175676;
+    align-items: center;
+    
+    
+}
+
+#items{
+    display: flex;                                 /*** esee ***/
+    text-decoration: none;
+    background-color: none;
+    justify-content: space-around;
+    width: 35%;
+    
+}
+
+#items a{                                        /*** esee ***/
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#items a:hover {                                 /*** esee ***/
+    font-size: 130%;
+    text-decoration: none;
+    color: #4BA3C3;
+  }
+
+  h1{                                         /*** esee ***/
+    font-size: 250%;
+
+  }
+
+  /***  UP TO HERE IS THE BAR ***/
+
+
+
+
+
+form{
+    text-align: center;
+    align-items: center;
+    display: block;
+    width: 50%;
+    border: 0px solid red;
+    min-height: 350px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+.theforms{
+    display: flex;
+    margin-top: 1%;
+    margin: auto;
+}
+
+#submittheform{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+
+
+
+input{
+    width: 80%;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.theforms{
+    margin-top:40px;
+    
+}
+
+
+#submittheform{
+    display: block;
+    cursor: pointer;
+    background-color: #175676;
+    border-radius: 20px;
+    text-align: auto;
+   
+
+
+}
+
+#reg-btn{   
+    position: relative;
+    color:white;
+    text-align: center;
+    margin-left:10%;
+  
+}
+
+
+#MyName{
+    text-decoration: none;
+    color:#4BA3C3;
+}
+
+
+p{
+    font-family: Snell Roundhand, cursive;
+    font-size: 200%;
+    color: white;
+    margin-bottom: 7%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+#foot{
+    
+    position: absolute;
+    width: 100%;
+    bottom: 0px;  
+    background-color: #175676;
+    height: 100px;
+    text-align: center;
+    
+   
+ }
+ 
+ 
+ #foot, h4{
+     
+     
+     color: white;
+     margin-bottom: 0px;
+     
+  }
+  
+ 
+  #submittheform:hover{
+   
+   color: #4BA3C3;
+
+
+}
+  
+
+
+  @media screen and (max-width: 1185px) {
+
+
+
+    #bar{
+        width: 100%;              /*** esee ***/
+        
+        
+    }
+
+    #bar,#items{
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 1%;       /*** esee ***/
+
+        }
+
+
+        #foot{
+            display: block;
+            bottom: 0px;
+            text-align: center;
+            margin-top: 5%;
+         }
+         
+
+         #foot, h4{
+            color: white;
+            align-items: center;
+            align-self: center;
+            text-align:center;
+            padding-top: 1%;
+           
+         }
+
+         form{
+            text-align: center;
+            align-items: center;
+            display: block;
+            width: 100%;
+            border: 0px solid red;
+            min-height: 350px;
+            margin: auto;
+            margin-top: 10%;
+            border-radius: 10px;
+            background-color: transparent;
+        
+        }
+
+
+
+        
+    }

@@ -1,0 +1,303 @@
+body{
+    background-color: #4BA3C3;
+    margin: auto 50%;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#bar{
+    display: flex;
+    color:#fff;
+    justify-content: space-around;
+    background-color: #175676;
+    align-items: center;
+    
+    
+}
+ h1{
+    font-size: 250%;   
+    
+}
+
+#ani{
+    border-right: 3px solid #175676;
+    animation: typist 2s, caret 0.1s  5 step-end;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+@keyframes caret{ 
+    0%, 100%{border-color: transparent;}
+    50%{border-color: #175676;}              
+}
+
+@keyframes typist{
+    0%{width: 0ch}
+    100%{width: 9ch}
+}
+
+#items{
+    display: flex;
+    text-decoration: none;
+    background-color: none;
+    justify-content: space-around;
+    width: 35%;
+    
+}
+
+#items a{
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#items a:hover {
+    font-size: 130%;
+    text-decoration: none;
+    color: #4BA3C3;
+  }
+
+
+
+
+
+
+
+
+
+
+
+img{
+    position: relative;
+    max-width: 40%;
+    max-height:40%;
+    padding-top: 5%;
+    padding-left: 5%;
+    margin-left:0%;
+    float: left;
+    scale: 50%;
+
+}
+
+
+
+
+
+
+  
+    
+
+
+#mainwrap, p{
+    display: flex;
+    width: 400px;
+    margin-left: 0%;
+    margin-top: 0%;
+    font-size: 108%;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+#line{
+    width: 90%;
+    margin-top: 3%;
+    padding:2%;
+    background-color: #4BA3C3;
+    transform: skewy(-3deg);
+}
+
+
+
+
+
+.part3{
+    width: 100%;
+    height: 200px;
+    background-color: #175676;
+    padding-top: 0%;
+    margin-top:0%;
+    margin:0%;
+    color: white;
+    float: right;
+}
+
+.part3, h4{
+    margin-bottom:0%;
+    text-align: center;
+    padding-top: 1.75%;
+}
+
+#name{
+    color: #4BA3C3;
+    text-decoration: none;
+
+}
+
+#quote{
+    background-color: #4BA3C3;
+    width: 100%;
+    height: 150px;
+    background-color: none;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+#quote,div{
+    color:white;
+    width: 90%;
+    padding-left:5%;
+    font-size: 110%;
+    font-family: cursive;
+    
+    justify-items: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:   1300px) {
+
+
+
+    #quote{
+        background-color: #4BA3C3;
+        width: 90%;
+        height: 150px;
+        background-color: none;
+        margin-top: 7%;
+        display: inline-block;
+        justify-content: space-around;
+        padding-top: 0%;
+       
+        
+        
+        
+    }
+    #quote, div{
+        
+        margin-bottom: 30px;
+        
+        
+    }
+    
+  
+
+    img{
+     display: none;
+    }
+
+    
+
+    #bar,#items{
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 1%;       /*** esee ***/
+        float: right;
+    }
+
+    #mainwrap{
+        
+        margin: auto;
+    }
+       
+
+    }
+
+    
+
+
+
+
+
+    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+
+
+    
+
+
+
+   
+
+    #line{
+        width: 100%;
+        margin-top: 3%;
+        
+        background-color: #4BA3C3;
+        transform: skewy(-0deg);
+ 
+
+    }
+
+    
+
+  
+
+
+   
+
+   
+
+}
